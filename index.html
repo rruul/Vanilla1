@@ -12,7 +12,33 @@
   </head>
 </head>
 <body>
-
+    <div class="container">
+        <h4 class="text-center">Carrito de Compras</h4>
+        <div class="contenido">
+            <div class="compras">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Item</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Acciones</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="items"></tbody>
+                    <tfoot>
+                        <tr id="footer">
+                        <th scope="row" colspan="5">
+                            Carrito Vacio - Compra ya!!!
+                        </th>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="productos"></div>
+        </div>
+    </div>
     <script src="./js/app.js"></script>
 </body>
 </html>
